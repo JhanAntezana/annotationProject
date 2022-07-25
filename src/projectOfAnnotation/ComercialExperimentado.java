@@ -5,9 +5,15 @@ import org.springframework.stereotype.Component;
 
 @Component("comercialExp")
 public class ComercialExperimentado implements Empleado{
-    private CrearInformeFinanciero informeFinanciero;
     @Autowired
+    private CrearInformeFinanciero informeFinanciero;
+    public ComercialExperimentado(){}
+    //@Autowired
     public ComercialExperimentado(CrearInformeFinanciero informeFinanciero) {
+        this.informeFinanciero = informeFinanciero;
+    }
+    //@Autowired
+    public void setInformeFinanciero(CrearInformeFinanciero informeFinanciero) {
         this.informeFinanciero = informeFinanciero;
     }
 
