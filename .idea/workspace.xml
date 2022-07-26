@@ -4,7 +4,6 @@
     <list default="true" id="e44ccda4-1de6-404b-80ef-4a6d301bf1e3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projectOfAnnotation/ComercialExperimentado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projectOfAnnotation/ComercialExperimentado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projectOfAnnotation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projectOfAnnotation/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +79,7 @@
       <updated>1658637309694</updated>
       <workItem from="1658637315476" duration="2486000" />
       <workItem from="1658706629022" duration="5719000" />
-      <workItem from="1658762179822" duration="7960000" />
+      <workItem from="1658762179822" duration="10208000" />
     </task>
     <servers />
   </component>
