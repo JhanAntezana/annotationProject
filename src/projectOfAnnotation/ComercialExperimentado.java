@@ -1,11 +1,13 @@
 package projectOfAnnotation;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component("comercialExp")
 public class ComercialExperimentado implements Empleado{
     @Autowired
+    @Qualifier("informeFinancieroAnual")
     private CrearInformeFinanciero informeFinanciero;
     public ComercialExperimentado(){}
     //@Autowired
