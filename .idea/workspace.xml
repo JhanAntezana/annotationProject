@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e44ccda4-1de6-404b-80ef-4a6d301bf1e3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projectOfAnnotation/EmpleadosConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projectOfAnnotation/ComercialExperimentado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projectOfAnnotation/ComercialExperimentado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projectOfAnnotation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projectOfAnnotation/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,12 +52,12 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="projectOfAnnotation.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="projectOfAnnotation.Main" />
       <module name="projectAnnotation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="projectOfAnnotation.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,7 +67,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.projectOfAnnotation.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -79,7 +81,7 @@
       <updated>1658637309694</updated>
       <workItem from="1658637315476" duration="2486000" />
       <workItem from="1658706629022" duration="5719000" />
-      <workItem from="1658762179822" duration="10208000" />
+      <workItem from="1658762179822" duration="11957000" />
     </task>
     <servers />
   </component>
