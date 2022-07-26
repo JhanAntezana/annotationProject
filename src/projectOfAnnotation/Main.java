@@ -11,9 +11,12 @@ public class Main {
         //leer el class de configuracion
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(EmpleadosConfig.class);
         //2. pedir un bean al contenedor
-        Empleado jhan = context.getBean("comercialExp", Empleado.class);
+        //Empleado jhan = context.getBean("comercialExp", Empleado.class);
+        Empleado empleado = context.getBean("directorFinanciero",Empleado.class);
         //3. usar el bean
-        System.out.println(jhan.getInforme());
+        //System.out.println(jhan.getInforme());
+        System.out.println(empleado.getTarea());
+        System.out.println(empleado.getInforme());
         //4. cerrar el contexto
         context.close();
 
@@ -34,7 +37,7 @@ public class Main {
                 System.out.println(Pedro+"\n"+Lucia);
             }
         //3. usar el bean
-        System.out.println(jhan.getInforme());
+        System.out.println(Lucia.getInforme());
         //4. cerrar el contexto
         context.close();
 
